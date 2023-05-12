@@ -1,0 +1,42 @@
+.headcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:#237eda ;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+.hamburger{
+    cursor: pointer;
+}
+
+.headright,.headright{
+    display: flex;
+    justify-content: space-between;
+   padding-left: 2%;
+}
+.headleft{
+   display: flex;
+   gap: 10px;
+   justify-content: space-around;
+   color: blanchedalmond;
+}
+
+.headright{
+    margin-right: 3%;
+}
+
+.headicon{
+    margin: 2%;
+}
+
+.headright>input{
+    border: none;
+    border-radius: 5px;
+    margin: 0 2%;
+    background-color: rgb(212, 224, 221);
+}
+

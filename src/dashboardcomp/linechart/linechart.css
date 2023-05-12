@@ -1,0 +1,29 @@
+.linechart {
+    border-radius: 5px;
+    background-color: rgb(237, 239, 240);
+    box-shadow: 5px -5px 5px 3px gainsboro;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.inchart {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+.chartitem{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:900px) {
+    .linechart{
+        margin: 2%;
+        width: 50%;
+    }
+}

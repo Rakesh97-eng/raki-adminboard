@@ -1,0 +1,90 @@
+.dashcontains{
+    display: flex;
+    justify-content: space-evenly; 
+ 
+   
+}
+
+.dashupin{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+.dashcharge{
+    position:absolute;
+    bottom: 5px;
+    align-self: center;
+    width: 97%;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.dashearn{
+   font-size: small;
+   margin-top: 5px;
+}
+
+.dashin{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+
+
+.dashup{
+    margin-top: 3%;
+    background-color:#dee8f1;
+    height:150px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 5px -5px 5px 3px gainsboro ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 2%;
+    transition-property: width;
+    transition-duration: 5s;
+     transition-delay: 2s;
+     transition: all 1s ease-in;
+  
+}
+.dashfull{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2%;
+}
+
+.charts{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    margin: 2%;
+    
+}
+
+.dashup:hover{
+    background-color: rgb(162, 177, 177);
+    visibility: visible;
+    opacity: 1;
+   
+    width: 20%;
+}
+
+@media(max-width:500px){
+    .dashcontains{
+        display: block;
+    }
+}
+
+
+@media(max-width:990px){
+    .charts{
+
+        flex-wrap: wrap;
+        
+        margin-left: 10%;
+     }
+     
+}

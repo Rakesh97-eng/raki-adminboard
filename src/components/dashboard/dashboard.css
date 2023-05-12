@@ -1,0 +1,7 @@
+
+.dashboardcontain{
+    display: flex;
+}
+.dashboardcontain::-webkit-scrollbar{
+    display: none;
+  }
